@@ -1,3 +1,0 @@
--interface
--ifcOutput e:/MY/Modules/qbs/build/default_release/release/hello-lib.58eb6b8a/cxx-modules/hello.ifc
--reference std=e:/MY/Modules/qbs/build/default_release/release/CppStd.1236da6f/cxx-modules/std.ifc

@@ -1,7 +1,0 @@
-{
-    "isInterfaceModule": true,
-    "providesModule": "hello",
-    "requiresModules": [
-        "std"
-    ]
-}
