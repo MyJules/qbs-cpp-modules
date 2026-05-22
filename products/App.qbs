@@ -9,7 +9,6 @@ Product {
     Depends { name: "cpp" }
     Depends { name: "CppStd" }
     Depends { name: "args-lib" }
-    Depends { name: "raylib" }
 
     files: [
         project.sourceDirectory + "/src/main.cpp",
@@ -17,7 +16,5 @@ Product {
 
     cpp.cxxLanguageVersion: "c++23"
     cpp.forceUseCxxModules: true
-    cpp.includePaths: [
-        raylibDir + "/src",
-    ]
+    cpp.includePaths: []
 }
