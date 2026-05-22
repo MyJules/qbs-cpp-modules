@@ -9,7 +9,6 @@ Project {
         "products/CppStd.qbs",
         "products/ArgsLib.qbs",
         "products/GTest.qbs",
-        "products/Raylib.qbs",
         "products/App.qbs",
         "products/Tests.qbs",
     ]
