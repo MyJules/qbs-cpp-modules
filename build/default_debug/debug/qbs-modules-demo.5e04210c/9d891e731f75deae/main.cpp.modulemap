@@ -1,0 +1,3 @@
+-reference std=e:/MY/Modules/qbs/build/default_debug/debug/CppStd.1236da6f/cxx-modules/std.ifc
+-reference hello=e:/MY/Modules/qbs/build/default_debug/debug/hello-lib.58eb6b8a/cxx-modules/hello.ifc
+-reference std=e:/MY/Modules/qbs/build/default_debug/debug/CppStd.1236da6f/cxx-modules/std.ifc
