@@ -12,7 +12,7 @@ Product {
     Depends { name: "gtest" }
 
     files: [
-        project.sourceDirectory + "/tests/hello_tests.cpp",
+        project.sourceDirectory + "/tests/args_tests.cpp",
     ]
 
     cpp.cxxLanguageVersion: "c++23"
