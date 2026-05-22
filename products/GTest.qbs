@@ -4,15 +4,17 @@ Product {
     name: "gtest"
     type: ["staticlibrary"]
 
+    property string googletestDir: project.vendorDir + "/googletest/googletest"
+
     Depends { name: "cpp" }
 
     files: [
-        project.googletestDir + "/src/gtest-all.cc",
+        googletestDir + "/src/gtest-all.cc",
     ]
 
     cpp.cxxLanguageVersion: "c++17"
     cpp.includePaths: [
-        project.googletestDir,
-        project.googletestDir + "/include",
+        googletestDir,
+        googletestDir + "/include",
     ]
 }

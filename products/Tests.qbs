@@ -4,6 +4,8 @@ Product {
     name: "hello-tests"
     type: ["application"]
 
+    property string googletestDir: project.vendorDir + "/googletest/googletest"
+
     Depends { name: "cpp" }
     Depends { name: "CppStd" }
     Depends { name: "hello-lib" }
@@ -16,6 +18,6 @@ Product {
     cpp.cxxLanguageVersion: "c++23"
     cpp.forceUseCxxModules: true
     cpp.includePaths: [
-        project.googletestDir + "/include",
+        googletestDir + "/include",
     ]
 }
