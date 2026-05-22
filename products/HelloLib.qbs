@@ -8,7 +8,7 @@ Product {
     Depends { name: "CppStd" }
 
     files: [
-        project.sourceDirectory + "/hello.cppm",
+        project.sourceDirectory + "/src/hello.cppm",
     ]
 
     cpp.cxxLanguageVersion: "c++23"

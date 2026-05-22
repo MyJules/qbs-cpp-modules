@@ -14,9 +14,9 @@ Product {
     cpp.forceUseImportStd: true
     cpp.forceUseImportStdCompat: useStdCompat
 
-    // Properties {
-    //     condition: qbs.toolchainType === "clang"
-    //     cpp.cxxFlags: ["-Wno-reserved-module-identifier"]
-    //     cpp.cxxStandardLibrary: "libc++"
-    // }
+    Properties {
+        condition: qbs.toolchainType === "clang"
+        cpp.cxxFlags: ["-Wno-reserved-module-identifier"]
+        cpp.cxxStandardLibrary: "libc++"
+    }
 }

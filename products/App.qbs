@@ -12,7 +12,7 @@ Product {
     Depends { name: "raylib" }
 
     files: [
-        project.sourceDirectory + "/main.cpp",
+        project.sourceDirectory + "/src/main.cpp",
     ]
 
     cpp.cxxLanguageVersion: "c++23"
