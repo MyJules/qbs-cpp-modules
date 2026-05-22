@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-import hello;
+import args;
 
 int main(int argc, char **argv)
 {
@@ -8,7 +8,9 @@ int main(int argc, char **argv)
     return RUN_ALL_TESTS();
 }
 
-TEST(HelloTests, GreetingIncludesName)
+TEST(ArgsTests, ToSpanReturnsCorrectSize)
 {
-    EXPECT_EQ(Hello::greeting("Qbs"), "Hello, Qbs from C++20 modules!");
+    const char* argv[] = {"program", "arg1", "arg2"};
+    const auto args_span = args::to_span(3, argv);
+    EXPECT_EQ(args_span.size(), 3);
 }

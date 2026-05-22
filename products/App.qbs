@@ -1,14 +1,14 @@
 import qbs
 
 Product {
-    name: "qbs-modules-demo"
+    name: "app"
     type: ["application"]
 
     property string raylibDir: project.vendorDir + "/raylib"
 
     Depends { name: "cpp" }
     Depends { name: "CppStd" }
-    Depends { name: "hello-lib" }
+    Depends { name: "args-lib" }
     Depends { name: "raylib" }
 
     files: [

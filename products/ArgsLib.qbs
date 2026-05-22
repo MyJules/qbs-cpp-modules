@@ -1,14 +1,14 @@
 import qbs
 
 Product {
-    name: "hello-lib"
+    name: "args-lib"
     type: ["staticlibrary"]
 
     Depends { name: "cpp" }
     Depends { name: "CppStd" }
 
     files: [
-        project.sourceDirectory + "/src/hello.cppm",
+        project.sourceDirectory + "/src/args.cppm",
     ]
 
     cpp.cxxLanguageVersion: "c++23"

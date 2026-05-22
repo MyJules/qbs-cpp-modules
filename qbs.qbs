@@ -7,7 +7,7 @@ Project {
 
     references: [
         "products/CppStd.qbs",
-        "products/HelloLib.qbs",
+        "products/ArgsLib.qbs",
         "products/GTest.qbs",
         "products/Raylib.qbs",
         "products/App.qbs",

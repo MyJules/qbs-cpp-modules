@@ -1,14 +1,14 @@
 import qbs
 
 Product {
-    name: "hello-tests"
+    name: "args-tests"
     type: ["application"]
 
     property string googletestDir: project.vendorDir + "/googletest/googletest"
 
     Depends { name: "cpp" }
     Depends { name: "CppStd" }
-    Depends { name: "hello-lib" }
+    Depends { name: "args-lib" }
     Depends { name: "gtest" }
 
     files: [

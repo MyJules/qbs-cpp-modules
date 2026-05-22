@@ -1,14 +1,12 @@
 import std;
-import hello;
+import args;
 
 #include "raylib.h"
 
-int main()
+int main(int argc, const char* argv[])
 {
-    std::vector names{std::string_view{"Qbs"}};
-    std::ranges::for_each(names, [](std::string_view name) {
-        Hello::printHello(name);
-    });
+    const auto args_span = args::to_span(argc, argv);
+    std::println("Arguments: {} ", args_span);
 
     InitWindow(800, 450, "qbs-modules-demo");
     SetTargetFPS(60);
