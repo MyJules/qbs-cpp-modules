@@ -4,8 +4,6 @@ Product {
     name: "app"
     type: ["application"]
 
-    property string raylibDir: project.vendorDir + "/raylib"
-
     Depends { name: "cpp" }
     Depends { name: "CppStd" }
     Depends { name: "args-lib" }
