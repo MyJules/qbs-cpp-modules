@@ -6,10 +6,8 @@ Project {
     property string vendorDir: sourceDirectory + "/vendor"
 
     references: [
-        "products/CppStd.qbs",
-        "products/ArgsLib.qbs",
-        "products/GTest.qbs",
-        "products/App.qbs",
-        "products/Tests.qbs",
+        "src/App.qbs",
+        "qbs/CppStd.qbs",
+        "vendor/GTest.qbs"
     ]
 }

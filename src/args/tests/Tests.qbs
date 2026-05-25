@@ -8,11 +8,11 @@ Product {
 
     Depends { name: "cpp" }
     Depends { name: "CppStd" }
-    Depends { name: "args-lib" }
+    Depends { name: "args" }
     Depends { name: "gtest" }
 
     files: [
-        project.sourceDirectory + "/tests/args_tests.cpp",
+        "args_tests.cpp",
     ]
 
     cpp.cxxLanguageVersion: "c++23"

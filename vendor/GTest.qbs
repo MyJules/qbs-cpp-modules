@@ -4,7 +4,7 @@ Product {
     name: "gtest"
     type: ["staticlibrary"]
 
-    property string googletestDir: project.vendorDir + "/googletest/googletest"
+    property string googletestDir: "googletest/googletest"
 
     Depends { name: "cpp" }
 
