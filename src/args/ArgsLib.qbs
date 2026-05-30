@@ -1,10 +1,6 @@
 import qbs
 
 Project {
-    references: [
-        "tests/Tests.qbs",
-    ]
-
     Product {
         name: "args"
         type: ["staticlibrary"]
